@@ -10,4 +10,4 @@ else
 	git clone https://github.com/Cj-Malone/goAway.git $CACHEDIR
 fi
 
-cp $CACHEDIR/desktops/*.desktop $OUTDIR/
+cp $CACHEDIR/desktops/*.desktop $OUTDIR/ --no-clobber
